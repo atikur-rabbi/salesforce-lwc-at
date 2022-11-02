@@ -1,0 +1,121 @@
+:host {
+    --svg-color: #5288AD;
+    --svg-color2: rebeccapurple;
+    --at-grey-lite: #B7C7D3;
+    --at-blue-0: #0C2644;
+}
+
+.right{ float: right;}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin: 10px 10px;
+}
+.icon > svg {
+    width: fit-content;
+    height: fit-content;
+    fill: var(--svg-color);
+}
+
+/* user menu */
+.header {
+    float: right;
+    display: flex;
+    padding: 10px;
+    /* background-color: var(--at-blue-0); */
+}
+.header-item{
+    padding: 2px;
+    /* height: 40px; */
+    position: relative;
+}
+.user-menu {
+    min-width: 200px;
+    padding-left: 10px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-menu-active {
+    background-color: var(--at-blue-1);
+    border-radius: 4px;
+    display: none;
+    position: absolute;
+    top: -8px;
+    z-index: 2;
+}
+
+.user-menu-container {
+    min-width: 200px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom:0px ;
+    width: auto;
+    justify-content: space-around;
+    display: flex;
+}
+
+.user-profile {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: var(--at-grey-lite) 2px solid;
+}
+
+.user-name{
+    align-content: center;
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-right: 6px;
+}
+
+.user-arrow {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.user-arrow > svg{
+    fill: var(--svg-color);
+}
+
+.show {
+	display: block;
+}
+
+.wrap {
+  display: flex;
+  background: #ccc;
+  justify-content: space-between;
+}
+
+.usre-menu-links {
+  display: block;
+  padding: 10px 0px;
+  margin-top: 10px;
+  border-top: 1px solid var(--at-blue-3);
+  border-bottom: 1px solid var(--at-blue-3);
+}
+
+.usre-menu-links a:hover {
+    background-color: var(--at-blue-10);
+}
+.menu-links {
+  padding: 10px 16px;
+  display: block;
+}
+
+.user-menu-btn-container {
+  margin: 10px 15px;
+  padding-bottom: 10px;
+}
+
+.user-menu-action-btn {
+  height: 50px;
+  width: 100%;
+  background-color: var(--at-blue-4);
+  color: var(--at-white);
+  border: 0px solid var(--at-blue-4);
+  border-radius: 4px;
+}

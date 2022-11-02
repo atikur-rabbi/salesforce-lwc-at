@@ -1,0 +1,37 @@
+.nav-menu {
+    background-color: var(--nav-menu-background);
+    height: 100vh;
+    width: var(--nav-menu-width);
+    /* position: absolute; */
+    top: 0px;
+    left: 0px;
+    position: fixed;
+  }
+
+  .nav-item{
+    width: var(--nav-menu-width);
+    height: var(--nav-menu-width);
+    background: var(--nav-menu-item-background);
+    -webkit-transition: var(--at-transition);
+    transition: var(--at-transition);
+  }
+
+  .nav-item>svg {
+    margin: auto;
+    padding: 20px;
+    fill: var(--nav-svg-temp-color);
+  }
+
+  a:hover > .nav-item, a:active > .nav-item {
+    background: var(--nav-menu-item-background-active);
+    border-left: 3px solid var(--at-red);
+    width: calc(var(--nav-menu-width)-1.5px);
+    --nav-svg-temp-color: var(--nav-svg-fill-color-active);
+  }
+
+  .nav-link.active > .nav-item{
+	  background: var(--nav-menu-item-background-active);
+    border-left: 3px solid var(--at-red);
+    width: calc(var(--nav-menu-width)-1.5px);
+    --nav-svg-temp-color: var(--nav-svg-fill-color-active);
+  }

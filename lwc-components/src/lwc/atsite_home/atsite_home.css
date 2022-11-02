@@ -1,0 +1,65 @@
+* {
+    --padding-left: 30px;
+}
+.home-container {
+    margin: 0;
+    background: var(--header-background-color);
+    color: var(--body-font-color);
+    padding: 20px 30px;
+}
+            
+h1, h2 {
+    margin: 0;
+    padding: 4px 10px;
+}
+            
+.home-Label {
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 400;
+    padding-left: var(--padding-left);
+}
+            
+.home-details {
+    font-size : 24px;
+    padding-left: var(--padding-left);
+}
+
+.right-bottom {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 20px;
+    /* margin-right: 20px; */
+	/* right: 20px;
+	bottom: 20px; */
+}
+
+.combobox {
+    width: 230px;
+    height: 54px;
+}
+.btn {
+    width: 150px;
+    background-color: #5288ad;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 15px 20px;
+  }
+
+h1{
+    color: white;
+    font-size: 30pt;
+}
+
+.slot {
+    min-height: 66px;
+    background-color: var(--at-blue-1);
+    height: 100vh;
+}

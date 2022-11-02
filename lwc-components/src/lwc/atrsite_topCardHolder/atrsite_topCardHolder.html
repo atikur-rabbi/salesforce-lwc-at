@@ -1,0 +1,12 @@
+<template>
+    <template for:each={lstAccounts} for:item="acc">
+        <div key={acc.Id} class="card-section-1-wrapper">
+                <c-atrsite_dynamic-card  
+                small-card-title={acc.smallCardTitle} 
+                small-card-value={acc.smallCardValue} 
+                arrow-direction={acc.arrowDirection} 
+                percent-value={acc.percentValue} 
+                ></c-atrsite_dynamic-card>
+        </div>
+    </template>
+</template>
