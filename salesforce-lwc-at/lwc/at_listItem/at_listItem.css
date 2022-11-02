@@ -1,0 +1,11 @@
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 90px;
+    display:inline-block;
+    margin:0 8px;
+}
+
+/*
+    Add other list type css if needed. e.g. square, hyphen
+*/
